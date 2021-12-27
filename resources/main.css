@@ -2059,10 +2059,10 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: "Open Sans", sans-serif;
-  color: #69b9ff;
+  color: #000;
   font-size: 25px;
   line-height: 25px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 4px;
   /* text-transform: uppercase; */
 }
