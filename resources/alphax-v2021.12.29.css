@@ -95,28 +95,6 @@
   color: #e8e8e8;
 }
 
-.footer-link {
-  display: block;
-  margin-bottom: 6px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #d5d5e0;
-  color: #668cad;
-  font-size: 14px;
-  font-weight: 300;
-  text-decoration: none;
-}
-
-.footer-link:hover {
-  color: rgba(0, 140, 255, 0.84);
-}
-
-.footer-link.with-icon {
-  margin-left: 30px;
-}
-.info-icon {
-  float: left;
-}
-
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -143,4 +121,14 @@
   margin-bottom: 5px;
   color: #9e9e9e;
   font-size: 16px;
+}
+
+.fs-xxl {
+  font-size: 10em;
+}
+.fs-xl {
+  font-size: 5em;
+}
+.fs-lg {
+  font-size: 2.5em;
 }
