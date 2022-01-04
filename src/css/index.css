@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;700&display=swap");
+
+:root {
+  --blue: #69b9ff;
+  --blue-hover: #309af7;
+}
+
+* {
+  font-family: "Baloo Da 2", "sans-serif";
+}
+
+.text-primary {
+  color: var(--blue) !important;
+}
+.bg-primary {
+  background-color: var(--blue) !important;
+}
+
+.bg-black-tr {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner {
+  padding-top: 7em;
+  padding-bottom: 7em;
+  border-bottom: 4px solid #69b9ff;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(46, 157, 255, 0.5)),
+      to(rgba(46, 157, 255, 0.29))
+    ),
+    url("../../public/resources/images/banner-min-45.jpg");
+  /* background-position: 0% 0%, 50% 50%; */
+  background-size: auto, cover;
+  text-align: center;
+}
+
+.fs-xxl {
+  font-size: 10em;
+}
+.fs-xl {
+  font-size: 5em;
+}
+.fs-lg {
+  font-size: 2.5em;
+}
+
+.p-lg {
+  padding: 5rem;
+}
+.p-xl {
+  padding: 8rem;
+}
+.p-xxl {
+  padding: 12rem;
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .fs-lg {
+    font-size: 1.2em;
+  }
+  .fs-xl {
+    font-size: 3em;
+  }
+  .fs-xxl {
+    font-size: 6em;
+  }
+
+  .p-lg {
+    padding: 1.4rem;
+  }
+  .p-xl {
+    padding: 2.2rem;
+  }
+  .p-xxl {
+    padding: 4rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 1200px) {
+}
+
+.table > :not(:first-child) {
+  border-top: 0px solid #ddd;
+}
