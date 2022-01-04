@@ -1,0 +1,25 @@
+/* news */
+.ticker {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.news {
+  /* padding: 0 2%; */
+}
+
+.news marquee {
+  /* font-size: 18px;
+    margin-top: 12px; */
+}
+
+.news-content p::before {
+  content: "\2015";
+}
+.news-content p {
+  line-height: 0;
+  margin-right: 100px;
+  display: inline;
+}
