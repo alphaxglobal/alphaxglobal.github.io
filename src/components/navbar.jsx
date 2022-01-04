@@ -1,3 +1,5 @@
+import "../css/news.css";
+
 const NavBar = () => {
   return (
     <nav className="navbar navbar-light bg-white fixed-top shadow">
