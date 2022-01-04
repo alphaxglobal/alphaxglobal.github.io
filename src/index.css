@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* news */
+
+.ticker {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.news {
+  /* padding: 0 2%; */
+}
+
+.news marquee {
+  /* font-size: 18px;
+  margin-top: 12px; */
+}
+
+.news-content p::before {
+  content: "\2015";
+}
+.news-content p {
+  line-height: 0;
+  margin-right: 100px;
+  display: inline;
 }
