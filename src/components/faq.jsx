@@ -55,7 +55,7 @@ const FAQ = () => {
                 <div className="accordion-item">
                   <h2 className="accordion-header" id={`headingId${index}`}>
                     <button
-                      className="accordion-button collapsed"
+                      className={index === 0 ? `accordion-button` : `accordion-button collapsed`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target={`#collapseId${index}`}
@@ -67,7 +67,7 @@ const FAQ = () => {
                   </h2>
                   <div
                     id={`collapseId${index}`}
-                    className="accordion-collapse collapse"
+                    className={index === 0 ? `accordion-collapse collapse show` : `accordion-collapse collapse`}
                     aria-labelledby={`headingId${index}`}
                     data-bs-parent="#accordionExample"
                   >

@@ -18,6 +18,7 @@ import Roadmap from "./components/roadmap";
 import Partners from "./components/partners";
 import UsefulLinks from "./components/useful-links";
 import Footer from "./components/footer";
+import TimeLine from "./components/timeline";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,7 +28,8 @@ ReactDOM.render(
     <Invest />
     <Tokenomics />
     <FAQ />
-    <Roadmap />
+    {/* <Roadmap /> */}
+    <TimeLine />
     <Partners />
     <UsefulLinks />
     <Footer />
