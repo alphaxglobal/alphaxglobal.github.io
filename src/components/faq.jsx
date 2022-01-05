@@ -1,7 +1,7 @@
 const FAQ = () => {
   const dataList = [
     {
-      q: "What is the contract address of India Coin?",
+      q: "What is the contract address of $ApX Token?",
       aList: [
         {
           a: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolores blanditiis autem quod quis similique voluptates, nihil debitis ad error? Cumque esse, perferendis omnis labore expedita ratione maiores adipisci repellendus!",
