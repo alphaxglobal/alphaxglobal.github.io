@@ -1,4 +1,14 @@
 const Tokenomics = () => {
+  const dataList = [
+    { key: "Token", value: "AlphaX ($APX)", isLocked: false },
+    { key: "Total supply", value: "01 Quadrillion", isLocked: false },
+    { key: "Initial burn", value: "10%", isLocked: false },
+    { key: "Liquidity", value: "50%", isLocked: false },
+    { key: "Quaterly burn", value: "05%", isLocked: true },
+    { key: "Team share", value: "20%", isLocked: true },
+    { key: "Marketing", value: "15%", isLocked: true },
+  ];
+
   return (
     <section className="bg-light" id="tokenomics">
       <div className="container p-5">
@@ -15,55 +25,15 @@ const Tokenomics = () => {
 
             <div className="table-responsive">
               <table className="table  text-start">
-                <tr>
-                  <td>
-                    <strong>Token</strong>
-                  </td>
-                  <td>AlphaX ($APX)</td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong>Total supply</strong>
-                  </td>
-                  <td>01 Quadrillion</td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong>Initial burn</strong>
-                  </td>
-                  <td>10%</td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong>Liquidity</strong>
-                  </td>
-                  <td>25%</td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong>Quaterly burn</strong>
-                  </td>
-                  <td>
-                    05%<i className="bi bi-lock-fill"></i>
-                  </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong>Team share</strong>
-                  </td>
-                  <td>
-                    10%<i className="bi bi-lock-fill"></i>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <strong>Marketing</strong>
-                  </td>
-                  <td>
-                    05%<i className="bi bi-lock-fill"></i>
-                  </td>
-                </tr>
+                {dataList.map((dataItem) => (
+                  <tr>
+                    <td className="ff-consolas fw-bold">{dataItem.key}</td>
+                    <td className="ff-consolas">
+                      {dataItem.value}
+                      {dataItem.isLocked && <i className="bi bi-lock-fill"></i>}
+                    </td>
+                  </tr>
+                ))}
               </table>
             </div>
           </div>
