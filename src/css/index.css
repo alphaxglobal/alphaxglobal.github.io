@@ -20,6 +20,13 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.partner-img {
+  transition: all 333ms ease-in-out;
+}
+.partner-img:hover {
+  transform: scale(1.2);
+}
+
 .banner {
   padding-top: 7em;
   padding-bottom: 7em;
